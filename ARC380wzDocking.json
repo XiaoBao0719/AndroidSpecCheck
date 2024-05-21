@@ -1,0 +1,44 @@
+{
+    "model": "ARC380wzDocking",
+    "version": "1.0.0",
+    "description": "This is the specification for the ARC380 model wz ARC380wzDocking",
+    "author": "Arthur",
+    "specification": {
+        "cpu": {
+            "value": "3568",
+            "check": "include"
+        },
+        "os": {
+            "value": "v37",
+            "check": "include"
+        },
+        "mem": {
+            "value": "8",
+            "check": "greaterThan"
+        },
+        "emmc": {
+            "value": "256",
+            "check": "greaterThan"
+        },
+        "ttySerial": {
+            "value": "6.5",
+            "check": "greaterThan"
+        },
+        "usb": {
+            "value": "8",
+            "check": "greaterThan"
+        },
+        "ethernet": {
+            "value": "2",
+            "check": "greaterThan"
+        },
+        "Touch": {
+            "value": "unChecked",
+            "check": "include"
+        },
+        "wifi": {
+            "value": "",
+            "check": "include"
+        }
+    }
+}
