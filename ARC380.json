@@ -32,7 +32,7 @@
             "value": "2",
             "check": "greaterThan"
         },
-        "Touch": {
+        "touch": {
             "value": "unChecked",
             "check": "include"
         },
